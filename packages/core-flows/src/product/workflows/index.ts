@@ -1,6 +1,7 @@
 export * from "./create-products"
 export * from "./delete-products"
 export * from "./update-products"
+export * from "./batch-products"
 export * from "./create-product-options"
 export * from "./delete-product-options"
 export * from "./update-product-options"

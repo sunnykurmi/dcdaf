@@ -4,6 +4,7 @@ import { authenticate } from "../../../utils/authenticate-middleware"
 import { maybeApplyLinkFilter } from "../../utils/maybe-apply-link-filter"
 import { validateAndTransformBody } from "../../utils/validate-body"
 import { validateAndTransformQuery } from "../../utils/validate-query"
+import { createBatchParams } from "../../utils/validators"
 import * as QueryConfig from "./query-config"
 import { maybeApplyPriceListsFilter } from "./utils"
 import {
@@ -58,6 +59,19 @@ export const adminProductRoutesMiddlewares: MiddlewareRoute[] = [
     matcher: "/admin/products",
     middlewares: [
       validateAndTransformBody(AdminCreateProduct),
+      validateAndTransformQuery(
+        AdminGetProductParams,
+        QueryConfig.retrieveProductQueryConfig
+      ),
+    ],
+  },
+  {
+    method: ["POST"],
+    matcher: "/admin/products/batch",
+    middlewares: [
+      validateAndTransformBody(
+        createBatchParams(AdminCreateProduct, AdminUpdateProduct)
+      ),
       validateAndTransformQuery(
         AdminGetProductParams,
         QueryConfig.retrieveProductQueryConfig
