@@ -1,5 +1,49 @@
 # @medusajs/types
 
+## 1.12.0
+
+### Minor Changes
+
+- [#6880](https://github.com/medusajs/medusa/pull/6880) [`1a48fe0282`](https://github.com/medusajs/medusa/commit/1a48fe0282a8bc1f8548a4736255e457d173da09) Thanks [@sradevski](https://github.com/sradevski)! - Add v2 product type endpoints and adjust the product module
+
+- [#6872](https://github.com/medusajs/medusa/pull/6872) [`86f499de2f`](https://github.com/medusajs/medusa/commit/86f499de2f31356ab36ad5e93f27345443b3e5f6) Thanks [@sradevski](https://github.com/sradevski)! - Aligned pricing module price set API with convention
+
+- [#6813](https://github.com/medusajs/medusa/pull/6813) [`a6562d2a41`](https://github.com/medusajs/medusa/commit/a6562d2a41453cbe7aa43be352c4924e3e4c79d5) Thanks [@sradevski](https://github.com/sradevski)! - Added an upsertWithReplace method to the mikro orm repository
+
+### Patch Changes
+
+- [#6827](https://github.com/medusajs/medusa/pull/6827) [`0c0b425de7`](https://github.com/medusajs/medusa/commit/0c0b425de7b154b80b712ab17b16215cf62d1e83) Thanks [@riqwan](https://github.com/riqwan)! - feat(medusa-react,medusa,types,dashboard): added empty state for promotions list page
+
+- [#6914](https://github.com/medusajs/medusa/pull/6914) [`27f4f0d724`](https://github.com/medusajs/medusa/commit/27f4f0d7243367c2dfc6012bf1f6b7400a77ec7b) Thanks [@adrien2p](https://github.com/adrien2p)! - fix(fulfillment): Wrong type usage
+
+- [#6864](https://github.com/medusajs/medusa/pull/6864) [`e944a627f0`](https://github.com/medusajs/medusa/commit/e944a627f074fb39a56f4bc7b3d6d315736ebf7c) Thanks [@adrien2p](https://github.com/adrien2p)! - feat: region payment providers management workflows/api
+
+- [#6944](https://github.com/medusajs/medusa/pull/6944) [`09a2220569`](https://github.com/medusajs/medusa/commit/09a22205693da62fbf8fd450535d5024cb9c01d1) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Add parents to product categories
+
+- [#7006](https://github.com/medusajs/medusa/pull/7006) [`78f603e4f1`](https://github.com/medusajs/medusa/commit/78f603e4f18c9d16f4b58a2189c959026453d8b2) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(types): remove duplicate CreateCustomerGroupDTO interface
+
+- [#6943](https://github.com/medusajs/medusa/pull/6943) [`58c68f6715`](https://github.com/medusajs/medusa/commit/58c68f67156e993255fbc25d91db15ae23bc95c0) Thanks [@fPolic](https://github.com/fPolic)! - feat(medusa, types): list payment providers endpoint
+
+- [#6901](https://github.com/medusajs/medusa/pull/6901) [`82a176e30e`](https://github.com/medusajs/medusa/commit/82a176e30e47a7d11caaf31c3023bd8db588b465) Thanks [@adrien2p](https://github.com/adrien2p)! - chore(medusa-test-utils): Handle errors gracefully + Do not set Distributed storage on partial loading
+
+- [#6977](https://github.com/medusajs/medusa/pull/6977) [`bc06ad2db4`](https://github.com/medusajs/medusa/commit/bc06ad2db48c999023ab823fefc1375196976e9b) Thanks [@adrien2p](https://github.com/adrien2p)! - Feat/shipping options api 3
+
+- [#6860](https://github.com/medusajs/medusa/pull/6860) [`45c49e89f2`](https://github.com/medusajs/medusa/commit/45c49e89f28123ef622fc1c07253bae94fd74875) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Add workflow idempotencyKey to shared context
+
+- [#6982](https://github.com/medusajs/medusa/pull/6982) [`528ef4ca90`](https://github.com/medusajs/medusa/commit/528ef4ca90bb2cf6173dccc9fd6a9f9932ff9b76) Thanks [@adrien2p](https://github.com/adrien2p)! - fix(modules-sdk): Select all should send undefined instead of an empty array
+
+- [#6962](https://github.com/medusajs/medusa/pull/6962) [`65794f4bb5`](https://github.com/medusajs/medusa/commit/65794f4bb56e4fd3f0ccb7656a948f856f05324e) Thanks [@adrien2p](https://github.com/adrien2p)! - feat: Create shipping options API
+
+- [#6800](https://github.com/medusajs/medusa/pull/6800) [`4cf71af07d`](https://github.com/medusajs/medusa/commit/4cf71af07d1807c83df3889c1774f82cbd1b9a6f) Thanks [@pKorsholm](https://github.com/pKorsholm)! - feat(core-flows, medusa): add update stock location endpoint to api-v2
+
+- [#7028](https://github.com/medusajs/medusa/pull/7028) [`c78915c7c5`](https://github.com/medusajs/medusa/commit/c78915c7c5e91a99c1b1bae932656c8d86b17daf) Thanks [@adrien2p](https://github.com/adrien2p)! - feat(): Add support for shipping options prices update
+
+- [#7018](https://github.com/medusajs/medusa/pull/7018) [`f175cac4af`](https://github.com/medusajs/medusa/commit/f175cac4af63b71066a8398ecf9beaa6f28b20cc) Thanks [@pKorsholm](https://github.com/pKorsholm)! - feat(core-flows, medusa, types): add reservation item endpoints
+
+- [#6865](https://github.com/medusajs/medusa/pull/6865) [`8fd1488938`](https://github.com/medusajs/medusa/commit/8fd148893850eb66c5eae00c4ca9391a80ea2eb9) Thanks [@adrien2p](https://github.com/adrien2p)! - chore: medusa shutdown
+
+- [#6849](https://github.com/medusajs/medusa/pull/6849) [`1c6ba4468e`](https://github.com/medusajs/medusa/commit/1c6ba4468eab1440931c88929affd5b4c593f377) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Remote Joiner options to check if keys exist on entrypoints or relations
+
 ## 1.11.15
 
 ### Patch Changes

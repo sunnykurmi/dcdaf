@@ -1,5 +1,27 @@
 # @medusajs/orchestration
 
+## 0.5.7
+
+### Patch Changes
+
+- [#6869](https://github.com/medusajs/medusa/pull/6869) [`e603726985`](https://github.com/medusajs/medusa/commit/e60372698565315145037eb40fbe86c43f91cc16) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Fix Workflow Engine subscribers response and error
+
+- [#6967](https://github.com/medusajs/medusa/pull/6967) [`d333db0842`](https://github.com/medusajs/medusa/commit/d333db08429611c0571a0b173adf37103b8a8aa6) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Serialize orchestrator error
+
+- [#6886](https://github.com/medusajs/medusa/pull/6886) [`a164c0d512`](https://github.com/medusajs/medusa/commit/a164c0d5126a40e2bc669f9fc2883be502a15036) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Async steps marked as success if return StepResponse
+
+- [#6864](https://github.com/medusajs/medusa/pull/6864) [`e944a627f0`](https://github.com/medusajs/medusa/commit/e944a627f074fb39a56f4bc7b3d6d315736ebf7c) Thanks [@adrien2p](https://github.com/adrien2p)! - feat: region payment providers management workflows/api
+
+- [#6982](https://github.com/medusajs/medusa/pull/6982) [`528ef4ca90`](https://github.com/medusajs/medusa/commit/528ef4ca90bb2cf6173dccc9fd6a9f9932ff9b76) Thanks [@adrien2p](https://github.com/adrien2p)! - fix(modules-sdk): Select all should send undefined instead of an empty array
+
+- [#6962](https://github.com/medusajs/medusa/pull/6962) [`65794f4bb5`](https://github.com/medusajs/medusa/commit/65794f4bb56e4fd3f0ccb7656a948f856f05324e) Thanks [@adrien2p](https://github.com/adrien2p)! - feat: Create shipping options API
+
+- [#6849](https://github.com/medusajs/medusa/pull/6849) [`1c6ba4468e`](https://github.com/medusajs/medusa/commit/1c6ba4468eab1440931c88929affd5b4c593f377) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Remote Joiner options to check if keys exist on entrypoints or relations
+
+- Updated dependencies [[`0c0b425de7`](https://github.com/medusajs/medusa/commit/0c0b425de7b154b80b712ab17b16215cf62d1e83), [`20e8df914e`](https://github.com/medusajs/medusa/commit/20e8df914ec5fdf8d562d4fa84f72c58c7056195), [`27f4f0d724`](https://github.com/medusajs/medusa/commit/27f4f0d7243367c2dfc6012bf1f6b7400a77ec7b), [`e0b02a1012`](https://github.com/medusajs/medusa/commit/e0b02a1012981c29830d7779f59ebe805bbfd137), [`e944a627f0`](https://github.com/medusajs/medusa/commit/e944a627f074fb39a56f4bc7b3d6d315736ebf7c), [`1a48fe0282`](https://github.com/medusajs/medusa/commit/1a48fe0282a8bc1f8548a4736255e457d173da09), [`86f499de2f`](https://github.com/medusajs/medusa/commit/86f499de2f31356ab36ad5e93f27345443b3e5f6), [`09a2220569`](https://github.com/medusajs/medusa/commit/09a22205693da62fbf8fd450535d5024cb9c01d1), [`78f603e4f1`](https://github.com/medusajs/medusa/commit/78f603e4f18c9d16f4b58a2189c959026453d8b2), [`58c68f6715`](https://github.com/medusajs/medusa/commit/58c68f67156e993255fbc25d91db15ae23bc95c0), [`82a176e30e`](https://github.com/medusajs/medusa/commit/82a176e30e47a7d11caaf31c3023bd8db588b465), [`5d9aea053c`](https://github.com/medusajs/medusa/commit/5d9aea053ce6e04f242f86fb9053c13dec515d5b), [`bc06ad2db4`](https://github.com/medusajs/medusa/commit/bc06ad2db48c999023ab823fefc1375196976e9b), [`232322d035`](https://github.com/medusajs/medusa/commit/232322d03515f81e56867ff8c765b8409399ee68), [`45c49e89f2`](https://github.com/medusajs/medusa/commit/45c49e89f28123ef622fc1c07253bae94fd74875), [`528ef4ca90`](https://github.com/medusajs/medusa/commit/528ef4ca90bb2cf6173dccc9fd6a9f9932ff9b76), [`65794f4bb5`](https://github.com/medusajs/medusa/commit/65794f4bb56e4fd3f0ccb7656a948f856f05324e), [`4cf71af07d`](https://github.com/medusajs/medusa/commit/4cf71af07d1807c83df3889c1774f82cbd1b9a6f), [`c78915c7c5`](https://github.com/medusajs/medusa/commit/c78915c7c5e91a99c1b1bae932656c8d86b17daf), [`f175cac4af`](https://github.com/medusajs/medusa/commit/f175cac4af63b71066a8398ecf9beaa6f28b20cc), [`a6562d2a41`](https://github.com/medusajs/medusa/commit/a6562d2a41453cbe7aa43be352c4924e3e4c79d5), [`8fd1488938`](https://github.com/medusajs/medusa/commit/8fd148893850eb66c5eae00c4ca9391a80ea2eb9), [`1c6ba4468e`](https://github.com/medusajs/medusa/commit/1c6ba4468eab1440931c88929affd5b4c593f377)]:
+  - @medusajs/types@1.12.0
+  - @medusajs/utils@1.12.0
+
 ## 0.5.6
 
 ### Patch Changes
